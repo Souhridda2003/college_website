@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="SubHeader">
+        <nav>
+            <a href="index.html"><img src="eduford_img/msit.png"</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-regular fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="course.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>MSIT is one of the pioneering Engineering Colleges of Kolkata.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus blanditiis cumque labore dicta neque. Quaerat aliquam voluptas consequuntur, recusandae dicta praesentium, ex excepturi blanditiis eveniet repellat magni, quidem neque ipsam.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi possimus eos facilis earum? Fuga corporis corrupti sapiente nostrum vero eius, fugiat ex aperiam. Dolore ab recusandae odit aperiam repudiandae?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi possimus eos facilis earum? Fuga corporis corrupti sapiente nostrum vero eius, fugiat ex aperiam. Dolore ab recusandae odit aperiam repudiandae?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, minima ducimus? Quam, ab! Iure animi tempora accusamus odit obcaecati, sed reiciendis nostrum dolores placeat quaerat cupiditate consectetur voluptas, incidunt repudiandae?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" alt="library image">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptas alias esse dolorem consectetur voluptates quas qui doloremque tenetur quaerat facere error aliquam,</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" alt="playing img">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptas alias esse dolorem consectetur voluptates quas qui doloremque tenetur quaerat facere error aliquam,</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" alt="cafeteria image">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptas alias esse dolorem consectetur voluptates quas qui doloremque tenetur quaerat facere error aliquam,</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure suscipit deleniti voluptatem hic esse! Sint quam officiis debitis dolor cumque inventore cum,<br>pariatur molestiae, sed voluptates rem quo corrupti eligendi!</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-solid fa-heart"></i>by Souhridda Karmakar</p>
+    </section>
+
+    
+    <script>
+        var navlinks=document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

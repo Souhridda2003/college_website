@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="SubHeader">
+        <nav>
+            <a href="index.html"><img src="eduford_img/msit.png"</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-regular fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="course.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quae inventore officia, labore odit quaerat ex vel repellat ipsam quod aliquam assumenda voluptas alias earum, nesciunt odio perferendis dolores iusto.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus perferendis id saepe, cum animi rem exercitationem sequi assumenda beatae aspernatur ratione quibusdam, blanditiis optio sunt temporibus, quidem laborum aut modi!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque odio in culpa rem laudantium non. Dolorum sed iste asperiores. Reprehenderit rerum quod qui porro id recusandae tempore cupiditate velit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nam necessitatibus similique? Error esse dicta repellat, reiciendis ad excepturi adipisci, sunt eligendi molestias iste obcaecati debitis earum quis enim neque.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea placeholder="Your Comment" rows="5"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Electronics & Communication</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure suscipit deleniti voluptatem hic esse! Sint quam officiis debitis dolor cumque inventore cum,<br>pariatur molestiae, sed voluptates rem quo corrupti eligendi!</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-solid fa-heart"></i>by Souhridda Karmakar</p>
+    </section>
+
+    
+    <script>
+        var navlinks=document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
